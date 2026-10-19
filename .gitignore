@@ -1,0 +1,13 @@
+# empaquetado para subir a Claude Desktop / claude.ai
+ui-for-people.zip
+*.zip
+
+# sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# editores
+.vscode/
+.idea/
+*.swp

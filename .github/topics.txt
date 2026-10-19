@@ -1,0 +1,33 @@
+# Topics de GitHub para este repositorio.
+# GitHub admite hasta 20; aquí hay exactamente 20, en minúsculas y con guiones,
+# que es lo único que acepta.
+#
+# Para aplicarlos (sustituye <usuario>/<repo>):
+#
+#   gh repo edit <usuario>/ui-for-people \
+#     $(grep -v '^#' .github/topics.txt | grep -v '^$' | sed 's/^/--add-topic /' | tr '\n' ' ')
+#
+# Criterio: los cinco primeros son los que hacen que alguien que busca
+# "claude skill" lo encuentre; el resto es el vocabulario de diseño con el que
+# lo buscaría alguien que no sabe que existen las skills.
+
+claude-skill
+claude-skills
+claude-code
+agent-skills
+anthropic
+ui-design
+ux-design
+ui-ux
+emotional-design
+product-design
+design-principles
+design-system
+microinteractions
+motion-design
+onboarding
+mobile-ui
+frontend
+design-review
+ai-agents
+llm-tools
