@@ -2,9 +2,9 @@
 # GitHub admite hasta 20; aquí hay exactamente 20, en minúsculas y con guiones,
 # que es lo único que acepta.
 #
-# Para aplicarlos (sustituye <usuario>/<repo>):
+# Para aplicarlos:
 #
-#   gh repo edit <usuario>/ui-for-people \
+#   gh repo edit w-avw/ui-for-people \
 #     $(grep -v '^#' .github/topics.txt | grep -v '^$' | sed 's/^/--add-topic /' | tr '\n' ' ')
 #
 # Criterio: los cinco primeros son los que hacen que alguien que busca
