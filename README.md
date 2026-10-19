@@ -78,13 +78,13 @@ It also ships:
 Personal (every project on your machine):
 
 ```bash
-git clone https://github.com/w-avw/ui-for-people.git ~/.claude/skills/ui-for-people
+git clone https://github.com/w-avw/ui-skill-for-people.git ~/.claude/skills/ui-for-people
 ```
 
 Project (committed, so your team gets it too) — from the repo root:
 
 ```bash
-git clone https://github.com/w-avw/ui-for-people.git .claude/skills/ui-for-people
+git clone https://github.com/w-avw/ui-skill-for-people.git .claude/skills/ui-for-people
 ```
 
 Restart the session, or run `/ui-for-people` to invoke it directly. Claude also loads it on its own
@@ -213,13 +213,13 @@ Además trae:
 Personal (todos los proyectos de tu máquina):
 
 ```bash
-git clone https://github.com/w-avw/ui-for-people.git ~/.claude/skills/ui-for-people
+git clone https://github.com/w-avw/ui-skill-for-people.git ~/.claude/skills/ui-for-people
 ```
 
 De proyecto (se commitea, así la tiene todo el equipo) — desde la raíz del repo:
 
 ```bash
-git clone https://github.com/w-avw/ui-for-people.git .claude/skills/ui-for-people
+git clone https://github.com/w-avw/ui-skill-for-people.git .claude/skills/ui-for-people
 ```
 
 Reinicia la sesión, o invócala directamente con `/ui-for-people`. Claude también la carga sola

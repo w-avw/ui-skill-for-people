@@ -4,8 +4,13 @@
 #
 # Para aplicarlos:
 #
-#   gh repo edit w-avw/ui-for-people \
+#   gh repo edit w-avw/ui-skill-for-people \
 #     $(grep -v '^#' .github/topics.txt | grep -v '^$' | sed 's/^/--add-topic /' | tr '\n' ' ')
+#
+# Medido el 19/10/2026 en la propia API de GitHub: de los 20 primeros resultados de
+# "ui skill", DIECISIETE llevan "skill" en el nombre del repositorio, y los topics
+# tambien puntuan (hay resultados cuyo termino solo vive en un topic). De ahi el
+# nombre del repo y los topics sueltos "ui" y "skill".
 #
 # Criterio: los cinco primeros son los que hacen que alguien que busca
 # "claude skill" lo encuentre; el resto es el vocabulario de diseño con el que
@@ -22,12 +27,12 @@ ui-ux
 emotional-design
 product-design
 design-principles
-design-system
 microinteractions
 motion-design
 onboarding
 mobile-ui
-frontend
 design-review
 ai-agents
-llm-tools
+ui
+skill
+agent-skill
